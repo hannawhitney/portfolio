@@ -1,0 +1,18 @@
+.projectList {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 2rem;
+  padding: 0;
+  margin: 3rem auto;
+  max-width: 900px;
+  list-style: none;
+}
+
+.loading {
+  text-align: center;
+}
+
+.projectError {
+  text-align: center;
+  color: red;
+}

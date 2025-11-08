@@ -1,0 +1,31 @@
+.carousel {
+  max-width: 850px;
+  margin: 3rem auto;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: var(--shadow-1);
+}
+
+.carousel img {
+  border-radius: 16px;
+  object-fit: cover;
+  height: 400px;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: var(--accent-light);
+  border-radius: 50%;
+  padding: 10px;
+}
+
+.carousel-indicators button {
+  background-color: var(--accent-light);
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+}
+
+.carousel-indicators .active {
+  background-color: var(--accent-dark);
+}

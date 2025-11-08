@@ -1,0 +1,53 @@
+.projectItem {
+  list-style: none;
+}
+
+.card {
+  background: #ffffff;
+  border-radius: var(--radius);
+  box-shadow: var(--shadow-1);
+  overflow: hidden;
+  transition: transform var(--transition), box-shadow var(--transition);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.card:hover {
+  transform: translateY(-6px);
+  box-shadow: var(--shadow-2);
+}
+
+.image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.title {
+  font-family: var(--font-display);
+  font-size: 1.5rem;
+  color: var(--accent-dark);
+  margin: 1rem 0 0.5rem;
+}
+
+.button {
+  background: var(--accent-light);
+  color: var(--accent-dark);
+  padding: 0.6rem 1.2rem;
+  border: none;
+  border-radius: var(--radius);
+  font-weight: 600;
+  cursor: pointer;
+  margin: 1rem 0 1.5rem;
+  transition: background var(--transition), transform var(--transition);
+  text-decoration: none;
+  
+}
+
+.button:hover {
+  background: var(--accent);
+  color: white;
+  transform: translateY(-3px);
+}

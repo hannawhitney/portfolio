@@ -1,0 +1,52 @@
+.portfolioDetail {
+  max-width: 900px;
+  margin: 3rem auto;
+  padding: 2rem;
+  background-color: #e6f0e8; /* soft light green background */
+  border-radius: var(--radius);
+  box-shadow: var(--shadow-1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 1.5rem;
+}
+
+.portfolioDetail h1 {
+  font-family: var(--font-display);
+  font-size: 2.5rem;
+  color: var(--accent-dark);
+  margin: 0;
+}
+
+.portfolioDetail img {
+  width: 100%;
+  max-width: 700px;
+  border-radius: var(--radius);
+  object-fit: cover;
+  box-shadow: var(--shadow-1);
+}
+
+.portfolioDetail p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: var(--text);
+}
+
+.visitLink {
+  display: inline-block;
+  background: var(--accent-light);
+  color: var(--accent-dark);
+  padding: 0.75rem 1.5rem;
+  border-radius: var(--radius);
+  font-weight: 600;
+  text-decoration: none;
+  transition: background var(--transition), transform var(--transition);
+  margin-top: 1rem;
+}
+
+.visitLink:hover {
+  background: var(--accent);
+  color: white;
+  transform: translateY(-3px);
+}
